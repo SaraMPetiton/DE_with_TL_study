@@ -1,4 +1,4 @@
-In this repository you will find two other repositories:
+In this repository you will find two folders:
 - LinearInterpolation
 - DeepEnsemble
 These include the scripts that were used in our paper "How and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification?".
