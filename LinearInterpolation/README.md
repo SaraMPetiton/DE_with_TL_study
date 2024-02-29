@@ -1,6 +1,6 @@
 # LinearInterpolation
 
-In this repository, you'll find the scripts necessary to run the linear interpolations of our paper "how and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification? 
+In this repository, you'll find the scripts necessary to run the linear interpolations of our paper "how and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification?".
 
 This folder contains the code for the linear interpolations we used to better understand how and why transfer learning improves performance in bipolar disorder (BD) and schizophrenia (SCZ) classification tasks.
 
