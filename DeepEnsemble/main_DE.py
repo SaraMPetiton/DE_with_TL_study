@@ -159,7 +159,7 @@ def main():
 
     keyboard_args = parser.parse_args()
     parameters_plot = runDeepEnsemble(keyboard_args)
-    plot(show_or_save=keyboard_args.save_or_show_plot,**parameters_plot)
+    plot(show_or_save=keyboard_args.save_or_show_plot, internal = keyboard_args.internal, **parameters_plot)
 
 if __name__ == '__main__':
     main()

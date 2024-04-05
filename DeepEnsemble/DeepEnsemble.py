@@ -107,8 +107,7 @@ def get_metric_bootstrap(list_random, ypred_TL, ytrue_TL, grouping_sizes, metric
             
 
 
-
-def plot(show_or_save= "show" , **parameters_plot):
+def plot(show_or_save= "show" ,internal=False, **parameters_plot):
     group_sizes = ["no-DE"]+[str(i)+"-DE" for i in parameters_plot["grouping_sizes"]]
     pb = parameters_plot["pb"]
 
@@ -169,9 +168,11 @@ def plot(show_or_save= "show" , **parameters_plot):
         plt.show()
 
     else :
+        if internal : test_set = "_internal_test"
+        else : test_set = "_external_test"
         current_date = datetime.now()
         formatted_date = current_date.strftime("%d_%m_%Y")
-        path_save = os.path.join(os.getcwd(),"saved_plots/DeepEnsemble_"+pb+"_"+formatted_date+"_"+str(len(parameters_plot["grouping_sizes"]))+"groupsizes.png")
+        path_save = os.path.join(os.getcwd(),"saved_plots/DeepEnsemble_"+pb+test_set+"_"+formatted_date+"_"+str(len(parameters_plot["grouping_sizes"]))+"groupsizes.png")
         plt.savefig(path_save)
         
 
