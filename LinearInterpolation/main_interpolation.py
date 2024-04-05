@@ -162,7 +162,7 @@ def main():
     parser.add_argument('--nb_lambda', type=int, default=30, 
                         help="number of linear interpolation coefficients")
     
-    parser.add_argument('--root', type=str, default = "/neurospin/psy_sbox/analyses/201906_schizconnect-vip-prague-bsnip-biodb-icaar-start_assemble-all/data",
+    parser.add_argument('--root', type=str,
                         help="root path to datasets")
     
     parser.add_argument('--pkl_nameTL_BD', type=str, default="Test_{densenet121}_{vbm}_{bipolar}_finetuned.pkl", 
