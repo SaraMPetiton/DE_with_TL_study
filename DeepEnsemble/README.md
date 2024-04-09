@@ -25,7 +25,7 @@ If you choose to run these scripts using your own data, you can modify the files
 This folder contains our plots for bipolar disorder and schizophrenia classification.
 The values displayed are the standard deviations for each grouping size.
 If the values *slightly* vary from the plot in our paper, it is because we re-ran the script for 1e5 bootstrapping samplings, and as there is still some stochasticity to it, the std and mean values can change by about 0.1%.
-The trend of the plot will shoud always stay the same, as long as the number of samplings isn't too low (the variability of outputs increases inversely proportionally from the number of samplings).
+The trend of the plot will always stay the same, as long as the number of samplings isn't too low (the variability of outputs increases inversely proportionally from the number of samplings).
 
 **DeepEnsemble_scz_100000_samplings_04_04_2024_roc_auc_external_test.pkl** and **DeepEnsemble_bipolar_100000_samplings_04_04_2024_roc_auc_external_test.pkl** 
 These pickle files contain the computed deep ensembling values resulting in the plots in "saved_plots".
