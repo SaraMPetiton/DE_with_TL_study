@@ -2,7 +2,7 @@ In this repository you will find two folders:
 - LinearInterpolation
 - DeepEnsemble
 
-These include the scripts that were used in our paper "How and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification?".
+These include the scripts from our paper "How and why does deep ensemble coupled with transfer learning increase performance in bipolar disorder and schizophrenia classification?".
 
 The "LinearInterpolation" repository contains the scripts used to study the loss landscape of models trained to classify bipolar disorder (BD) or schizophrenia (SCZ) from healthy controls (HC) when they were trained from pre-trained weights VS randomly-initialized weights (for more information on the classifiers used : https://github.com/Duplums/SMLvsDL).
 
